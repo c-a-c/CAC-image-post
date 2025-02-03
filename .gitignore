@@ -27,8 +27,8 @@ frontendyarn-error.log*
 firebase.txt
 frontend/src/lib/firebase.tsx
 
-backend/.env
+.env
+serviceAccountKey.json
 backend/*.png
 backend/*.jpg
 backend/*.jpeg
-backend/serviceAccountKey.json

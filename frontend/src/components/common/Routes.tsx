@@ -4,7 +4,7 @@
 
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../../pages/home_page/Home"
+import Home from "../../pages/top_page/Top"
 import MyProfile from "../../pages/my_page/MyProfile";
 
 export const AppRoutes = () => {

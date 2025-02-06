@@ -4,7 +4,7 @@
 
 import "./App.css"
 import React from "react";
-import Home from "./pages/home_page/Home";
+import Home from "./pages/top_page/Top";
 
 const App: React.FC = () => {
     return (

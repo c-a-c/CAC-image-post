@@ -2,7 +2,7 @@ package model
 
 import "time"
 
-type Illustration struct {
+type Image struct {
 	ID		  uint       `json:"id" gorm:"primary_key"`
 	ImageURL  string     `json:"image_url"`
 	Title     string     `json:"title"`
@@ -15,7 +15,7 @@ type Illustration struct {
 	Likes	  []Like     `json:"likes" gorm:"many2many:illustration_likes;"`
 }
 
-type IllustrationResponse struct {
+type ImageResponse struct {
 	ID		  uint       `json:"id" gorm:"primary_key"`
 	ImageURL  string     `json:"image_url"`
 	Title     string     `json:"title"`

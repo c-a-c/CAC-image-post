@@ -21,7 +21,7 @@ frontend/.env.production.local
 
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
-frontendyarn-error.log*
+frontend/yarn-error.log*
 
 # firebaseを無視する
 firebase.txt

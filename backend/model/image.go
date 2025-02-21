@@ -6,7 +6,6 @@ type Image struct {
 	ID		  uint       `json:"id" gorm:"primary_key"`
 	ImageURL  string     `json:"image_url"`
 	Title     string     `json:"title"`
-	User      User       `json:"user"`
 	UserID    uint       `json:"user_id"`
 	Caption   string     `json:"caption"`
 	AgeRestriction  bool `json:"age_restriction"`
@@ -19,7 +18,6 @@ type ImageResponse struct {
 	ID		  uint       `json:"id" gorm:"primary_key"`
 	ImageURL  string     `json:"image_url"`
 	Title     string     `json:"title"`
-	User      User       `json:"user"`
 	UserID    uint       `json:"user_id"`
 	Caption   string     `json:"caption"`
 	AgeRestriction  bool `json:"age_restriction"`

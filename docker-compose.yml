@@ -1,0 +1,11 @@
+# docker-composeファイルのバージョン
+version: "3.8"
+# アプリケーションを構成するサービスの設定
+services: 
+    app: # サービス名
+        container_name: boiler-plate
+        build: # サービスのビルド方法を指定
+            context: . # Dockerfileのあるディレクトリを指定
+            dockerfile: Dockerfile # Dockerfileのファイル名を指定
+        ports: 
+            - 5434:5434 # ポートのマッピング
